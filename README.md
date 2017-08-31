@@ -2,29 +2,29 @@
 
 The Overlay pixel theme ported to all Andorid 8.0.
 
-So here is how will look<br> <img width="50%" src="https://github.com/BottyIvan/Pixel-UI/blob/master/device-2017-08-29-160202.png?raw=true">
+Example image:<br> <img width="50%" src="https://github.com/BottyIvan/Pixel-UI/blob/master/device-2017-08-29-160202.png?raw=true">
 
-# You need to install <a href="https://github.com/BottyIvan/Pixel-UI/blob/master/PixelThemeOverlay.apk?raw=true">PixelThemeOverlay.apk</a> and <a href="https://github.com/BottyIvan/Pixel-UI/raw/master/app/PixelNavBar.apk">PixelNavBar.apk</a>
+# You have to install <a href="https://github.com/BottyIvan/Pixel-UI/blob/master/PixelThemeOverlay.apk?raw=true">PixelThemeOverlay.apk</a> and <a href="https://github.com/BottyIvan/Pixel-UI/raw/master/app/PixelNavBar.apk">PixelNavBar.apk</a>
 
 PixelThemeOverlay = com.google.android.theme.pixel<br>
 PixelNavBar = com.botty.android.theme.pixel
 
-Now you need to run thi few command for both apks:
+Now you have to run the following commands for both apks:
 
 <pre>$ adb shell
 $ cmd overlay list
-$ cmd overlay enable "NAME PACKAGE"
+$ cmd overlay enable "PACKAGE NAME"
 </pre>
 
-#Do disable this two theme:
+# To disable them just run:
 
 <pre>$ adb shell
 $ cmd overlay list
-$ cmd overlay disable "NAME PACKAGE"
+$ cmd overlay disable "PACKAGE NAME"
 </pre>
 
 # NOTE 1
-If you install two or more theme for theming the all Android UI ( it's called framework-res.apk ), like the PixelThemeOverlay, you will eanble the option to choose theme in the settings app.
+If you install two or more theme for theming the Android UI ( it's called framework-res.apk ), like the PixelThemeOverlay, you have to choose it from the list in the settings app.
 
 <img width="50%" src="https://github.com/BottyIvan/Pixel-UI/blob/master/device-2017-08-29-160225.png?raw=true">
 
